@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+}
+
+body{
+    background: linear-gradient(#445e87, #cd6c6c);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../img/Minimalist\ wallpaper\ \(1920x1080\).jpg), #080808 ;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 2%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav li a{
+    color: #8a8a8a;
+    font-size: 1.3em;
+}
+
+.banner .info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.banner .info p{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #e91d43;
+    padding: 10px 20px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.banner .info a:hover{
+    background-color: #b50f2d;
+}
